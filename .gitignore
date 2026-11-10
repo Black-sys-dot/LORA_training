@@ -1,0 +1,43 @@
+# Credentials & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+credentials.json
+
+# AWS Dumps & Logs
+*quotas*.json
+*.log
+codes/sagemaker_flux/*.log
+codes/sagemaker_flux/jobs_status.json
+
+# Virtual Environments
+venv/
+test_venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Large Model Weights & Checkpoints (Avoid GitHub 100MB limit and leaks)
+checkpoints/
+models/
+*.safetensors
+*.tar.gz
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Temporary & Thumbnails
+.thumbs/
+.tmp/
+.DS_Store
+.idea/
+.vscode/

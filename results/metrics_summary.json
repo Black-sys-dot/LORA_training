@@ -1,0 +1,17 @@
+{
+  "lora": {
+    "mean_clip_t_alignment": 36.32,
+    "mean_clip_i_identity": 0.6674,
+    "num_evaluated": 10
+  },
+  "dora": {
+    "mean_clip_t_alignment": 35.99,
+    "mean_clip_i_identity": 0.7417,
+    "num_evaluated": 10
+  },
+  "lycoris": {
+    "mean_clip_t_alignment": 34.83,
+    "mean_clip_i_identity": 0.6146,
+    "num_evaluated": 10
+  }
+}
